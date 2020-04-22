@@ -8,7 +8,7 @@ import { ApiTags } from '@nestjs/swagger';
     model:User
 })
 @Controller('users')
-@ApiTags('用户3')
+@ApiTags('用户1')
 export class UsersController {
     constructor(@InjectModel(User) private readonly model){
 
