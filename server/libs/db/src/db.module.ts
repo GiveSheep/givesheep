@@ -10,7 +10,7 @@ const models = TypegooseModule.forFeature([
 @Global()
 @Module({
   imports: [
-    TypegooseModule.forRoot('mongodb://localhost/givesheep',{
+    TypegooseModule.forRoot('mongodb://******************',{
       useNewUrlParser:true,
       useUnifiedTopology:true,
       useCreateIndex:true,
